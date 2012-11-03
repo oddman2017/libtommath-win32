@@ -1,0 +1,212 @@
+EXPORTS
+
+KARATSUBA_MUL_CUTOFF
+           KARATSUBA_SQR_CUTOFF
+           TOOM_MUL_CUTOFF
+           TOOM_SQR_CUTOFF
+
+mp_error_to_string
+
+mp_init 
+
+mp_clear
+
+mp_init_multi
+
+mp_clear_multi
+
+mp_exch
+
+mp_shrink
+
+mp_grow
+
+mp_init_size
+
+mp_zero
+
+mp_set 
+
+mp_set_int 
+
+mp_get_int 
+
+mp_init_set 
+
+  mp_init_set_int 
+
+ mp_copy 
+
+ mp_init_copy 
+
+ mp_clamp 
+
+ mp_rshd 
+
+  mp_lshd 
+ mp_div_2d 
+
+  mp_div_2 
+
+ mp_mul_2d 
+
+ mp_mul_2 
+
+ mp_mod_2d 
+
+  mp_2expt 
+
+ mp_cnt_lsb 
+ 
+
+ mp_rand 
+
+ mp_xor 
+
+ mp_or 
+
+ mp_and 
+ mp_neg 
+ mp_abs 
+
+ mp_cmp 
+  mp_cmp_mag 
+
+ mp_add 
+
+ mp_sub 
+
+ mp_mul 
+
+ mp_sqr 
+
+  mp_div 
+
+ mp_mod 
+
+ mp_cmp_d 
+
+  mp_add_d 
+
+  mp_sub_d 
+
+ mp_mul_d 
+
+ mp_div_d 
+
+ mp_div_3 
+
+ mp_expt_d 
+
+ mp_mod_d 
+ 
+
+  mp_addmod 
+
+  mp_submod 
+
+  mp_mulmod 
+
+  mp_sqrmod 
+
+  mp_invmod 
+
+ mp_gcd 
+
+ mp_exteuclid 
+
+  mp_lcm 
+
+  mp_n_root 
+
+ mp_sqrt 
+
+ mp_is_square 
+ mp_jacobi 
+
+ mp_reduce_setup 
+
+ mp_reduce 
+
+ mp_montgomery_setup 
+
+ mp_montgomery_calc_normalization 
+
+ mp_montgomery_reduce 
+
+  mp_dr_is_modulus 
+
+ mp_dr_setup 
+
+mp_dr_reduce 
+
+mp_reduce_is_2k 
+
+mp_reduce_2k_setup 
+
+mp_reduce_2k 
+
+mp_reduce_is_2k_l 
+
+mp_reduce_2k_setup_l 
+
+mp_reduce_2k_l 
+
+mp_exptmod 
+
+ltm_prime_tab 
+
+mp_prime_is_divisible
+
+mp_prime_fermat
+
+mp_prime_miller_rabin
+
+mp_prime_rabin_miller_trials 
+
+mp_prime_is_prime
+
+mp_prime_next_prime 
+
+mp_prime_random_ex 
+
+mp_count_bits 
+
+mp_unsigned_bin_size 
+mp_read_unsigned_bin 
+mp_to_unsigned_bin 
+mp_to_unsigned_bin_n 
+
+mp_signed_bin_size 
+mp_read_signed_bin 
+mp_to_signed_bin 
+mp_to_signed_bin_n 
+
+    mp_read_radix 
+    mp_toradix 
+    mp_toradix_n 
+    mp_radix_size 
+
+    mp_fread 
+    mp_fwrite 
+
+    s_mp_add 
+    s_mp_sub 
+    fast_s_mp_mul_digs 
+    s_mp_mul_digs 
+    fast_s_mp_mul_high_digs 
+    s_mp_mul_high_digs 
+    fast_s_mp_sqr 
+    s_mp_sqr 
+    mp_karatsuba_mul 
+    mp_toom_mul 
+    mp_karatsuba_sqr 
+    mp_toom_sqr 
+    fast_mp_invmod 
+    mp_invmod_slow 
+    fast_mp_montgomery_reduce 
+    mp_exptmod_fast 
+    s_mp_exptmod 
+    bn_reverse 
+
+    mp_s_rmap
